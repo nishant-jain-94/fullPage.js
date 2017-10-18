@@ -1,6 +1,6 @@
 {
   "name": "shadowed-fullpagejs",
-  "version": "2.9.4",
+  "version": "2.9.5",
   "description": "Create beautiful fullscreen scrolling websites",
   "main": "dist/jquery.fullPage.js",
   "authors": [
