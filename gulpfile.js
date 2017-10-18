@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-clean-css');
 
 gulp.task('sass', function() {
-    gulp.src('./jquery.fullpage.scss')
+    gulp.src('./jquery.fullPage.scss')
         .pipe(sass({
             outputStyle: 'expanded'
         }))
@@ -14,7 +14,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('css', function() {
-    gulp.src('./jquery.fullpage.css')
+    gulp.src('./jquery.fullPage.css')
         .pipe(sourcemaps.init())
         .pipe(gulp.dest('./dist'))
         .pipe(minifyCss({
@@ -28,7 +28,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-    gulp.src('./jquery.fullpage.js')
+    gulp.src('./jquery.fullPage.js')
         .pipe(sourcemaps.init())
         .pipe(gulp.dest('./dist'))
         .pipe(uglify({
