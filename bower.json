@@ -1,5 +1,9 @@
 {
   "name": "shadowed-fullpagejs",
+  "homepage": "http://alvarotrigo.com/fullPage/",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
   "description": "Create  beautiful fullscreen scrolling websites",
   "main": [
     "dist/jquery.fullPage.js",

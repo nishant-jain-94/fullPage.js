@@ -3,6 +3,9 @@
   "version": "2.9.4",
   "description": "Create beautiful fullscreen scrolling websites",
   "main": "dist/jquery.fullPage.js",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
